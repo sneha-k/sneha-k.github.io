@@ -1,5 +1,5 @@
-Here you can say lots of fun things about your site.
+Hello! I am happy that you have landed here. 
 
-Maybe say a some things about yourself.
+Let's navigate through the Statistics for Data Science together. 
 
-Or maybe what you plan to blog about.
+
