@@ -4,5 +4,5 @@ While you must have heard the term "Statistician" if you are around since the 20
 strong believe is that although being a "Data Scientist" is like being the cool kid on the block, there is tons of confusion in what a Data Scientist actually 
 does. Let us look at two job postings to make a point here. 
 ![Book logo](/sneha-k.github.io/docs/assets/desc1.png)
-![Book logo2](/sneha-k.github.io/docs/assets/desc2.png)
 
+<img width="480" alt="desc2" src="https://user-images.githubusercontent.com/29751013/187302020-0798cece-cd5f-453a-ad96-16f15ed0fe08.png">
