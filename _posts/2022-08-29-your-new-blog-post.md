@@ -8,7 +8,7 @@ While you must have heard the term "Statistician" if you have been around since 
 
 Both these jobs were advertised as "Data Scientists" and yet they have such diverse responsibilities and this is a common trend across industries. 
 
-## What is the actually role of a data scientist?
+## What is then the role of a data scientist?
 A role of a data scientist can be thought of as cross-functional — needing to know both technical skills and soft-skills of the business. A data scientist is required to have core knowledge on the collection, preparation, analysis, management, visualization, and storage of large volumes of information. Having a strong understanding of software engineering, data modelling and deployment is important. A major responsibility of a data scientist is to build robust models for predictive analysis. This process involves, building multiple models and comparing their accuracy to find the model that best suits the dataset. 
 
 ## So how are statisticians any different?
