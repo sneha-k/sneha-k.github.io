@@ -3,11 +3,11 @@
 ## Introduction
 While you must have heard the term "Statistician" if you have been around since the 20th century, "Data Scientist" is a newer position in the industry. My strong belief is that although being a "Data Scientist" is like being the cool kid on the block, there is tons of confusion about what a Data Scientist does. Let us look at two job postings to make a point here.
 
-<img src="https://user-images.githubusercontent.com/29751013/187302424-076ebf2e-2a14-408b-8095-af996b811ff7.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">    
+<img width="480" alt="desc1" src="https://user-images.githubusercontent.com/29751013/187332278-048a745c-1927-4274-8df8-10cf7d74187f.png">
 
 <br>
 
-<img src="https://user-images.githubusercontent.com/29751013/187302020-0798cece-cd5f-453a-ad96-16f15ed0fe08.png" style="float: left; width: 30%; margin-right: 1%; margin-bottom: 0.5em;">
+<img width="480" alt="desc2" src="https://user-images.githubusercontent.com/29751013/187332292-363dd2e2-4b14-4259-b01d-d4356b637d04.png">
 
 <br>
 
