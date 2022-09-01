@@ -4,8 +4,7 @@
 
 I am Sneha, a Master of Statistics student at North Carolina State University. Here's a little snapshot of my journey 
 
-```{r, echo=FALSE, out.width="25%", fig.align="center"}
-knitr::include_graphics("https://user-images.githubusercontent.com/29751013/187822298-26f6073f-fe54-4e30-8d3c-e676aa3d1b3c.png")
-```
+
+![Professional profile](https://user-images.githubusercontent.com/29751013/187822707-c428c8b1-e5a4-435e-94d4-11e163e1cc13.png){widht = 50}
 
 The purpose of this blog is to capture my learnings from **St 558 : Statistics for Data Science**. This coursework is an elective in my Master of Statistics program.
