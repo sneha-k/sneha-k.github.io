@@ -10,10 +10,12 @@ The purpose of this blog is to capture my learnings from **St 558 : Statistics f
 
 ## Blog Schedule 
 
-Please find the schedule of the blogs below : 
+The primary purpose of this blog is to capture the blog submissions for the coursework. The schedule for it is as such :
  
 * First Blogpost - 08/29
 * Second Blogpost - 09/15
 * Third Blogpost - 10/17
 * Fourth Blogpost - 10/31
 * Fifth Blogpost - 12/05
+
+However, I might add a couple more posts from other courseworks as I go along so please keep an eye out for that. 
