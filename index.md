@@ -8,6 +8,9 @@ I am Sneha, a Master of Statistics student at North Carolina State University. H
 
 The purpose of this blog is to capture my learnings from **ST 558 : Statistics for Data Science**. This coursework is an elective in my Master of Statistics program. 
 
+## About the Blog 
+ST 558 walks through methods for reading, manipulating, and combining data sources including databases. Custom functions, visualizations, and summaries. It deals with common analyses done by data scientists and discusses methods for communicating results including dashboards. The libraries that we will explore in R Programming inclide but are not limited to, `dplyr`, `dbplyr`, `ggplot2`, `knitr`, and `shiny`. 
+
 ## Blog Schedule 
 
 The primary purpose of this blog is to capture the blog submissions for the coursework. The schedule for it is as such :
