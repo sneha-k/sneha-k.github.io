@@ -8,5 +8,5 @@ The project was crucial in learning to build modularization which is of utmost i
 # Improvement Areas 
 Since we did not have the opportunity of exploring ggplot yet, the plotting part of the project felt mechanical. I would have liked the creative freedom of creating custom visualizations to understand the importance of data processing before moving to exploratory data analysis. I wish I had merged my development with Github so that I would have more version control and this is something that I wish to implement in the following project. 
 
-To view my project, make sure to check out the ![Github Pages site](https://sneha-k.github.io/Project1.html/)
+To view my project, make sure to check out the [Github Pages site](https://sneha-k.github.io/Project1.html/)
 I look forward to hearing your thoughts and am happy to receive your feedback on it!
