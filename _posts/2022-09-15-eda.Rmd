@@ -1,0 +1,57 @@
+---
+title: "How to explore data - A guide to Exploratory Data Analysis "
+output:
+  github_document:
+    df_print: paged
+---
+
+```{r, echo=FALSE, out.width="280px", fig.align="center"}
+knitr::include_graphics("/sneha-k.github.io/docs/assets/comic.png")
+```
+
+# Importance of Exploratory Data Analysis 
+You get assigned to a new project. You have your first meeting with the client. Requirement? Can you please explore the data and let us know of any interesting insights that you see? What now?
+You get a new dataset to what you assume to be a classification problem. You fit a logistic regression to it directly. You get disastrous results. What went wrong? Out of many things that could have gone wrong here, you did not spend any time in understanding the data in hand
+These are some of the many instances where one needs to explore their data, commonly known as exploratory data analysis. Exploratory Data Analysis (acronym : EDA) is one of the first steps of the data science process. It involves learning and understanding your data as much as possible. It helps you identify the structure, cleaning or transforming efforts required, and possible modeling techiques. Like John Tukey in his book Exploratory Data Analysis says, "It is important to understand what you CAN DO before you learn to measure how WELL you seem to have DONE it." and that is the fundamental idea behind exploring one's data. 
+
+# What can Exploratory Data Analysis help you achieve?
+Have I convinced you on the importance of EDA yet? If not, let me elucidate. EDA helps you uncover stories that you would have never guessed by merely looking at the data. It helps you poke around the data to get a better feel of it. Once you have fully gauged what you are working with, it is easier to measure the impact, cleaning and modelling effort that is necessary. We can, therefore, understand the objectives of EDA as such:
+
+To gain an understanding of data and find clues from the data,
+
+*- to formulate and verify assumptions and hypothesis for our modelling; and*
+
+*- to check the quality of data for further processing and cleaning if necessary.*
+
+*- to dig for insights and stories from the data.*
+
+# Strategizing EDA 
+
+I strongly believe that everybody's game plan for EDA differs based on the client requirements, the industry they are in, and what they were in taught about EDA. EDA is not a formal process with a strict set of rules. I have met people who consider EDA to be a customary process and they have these certain steps that they follow which produces the same set of tables/graphs for any dataset that they are given to explore. I belong to the set of people who consider the EDA step to be more of a creative space to uncover stories from the data which might have otherwise been lost. This means that how I approach the EDA step for each data set is different from the previous but it follows the below framework. 
+
+### 1. Domain Expertise 
+Now you cannot possibly go looking for insights if you do not understand what you are looking at/for. To understand the data you are looking at a high-level it is pertinent that you speak to the leadership to get context on what you will be working with. The EDA that you do on time series data, a data with a prediction end goal, purely exploratory purposes is going to be different from one another. Have that conversation with your client before you begin EDA to streamline your process. 
+
+### 2. Shape of the data 
+How much data are you working with? Do you have the computational resources to work with this kind of data? Get an idea of the shape of the data. List down the number of columns and rows that exists. You can do this using `nrow(df)`, `ncol(df)`, or collectively with `dim(df)` functions in R.
+
+### 3. Data Types of all the columns 
+This is to see how many numerical vs categorical variables you are dealing with. This will further help the analysis process. `str(df)` of the dataframe will give you the desired results. 
+
+### 4. Missing Values 
+Now that we’ve decided how we’re going to work with the data, we begin to look at the data itself. Checking your data for missing values is usually a good place to start. Having some missing values is normal. What we want to identify at this stage are big holes in the dataset, i.e. samples or features with a lot of missing values. Something like `colSums(is.na(df))` will help you do this. One should not just remove a column if it has too many missing values and rather investigate the reason for the missing value and apply imputation techniques, if applicable.
+
+### 5. Descriptive Statistics 
+Let us now get into a more grittier level of EDA where we explore the data in terms of statistics. You can build a neat descriptive statistics of the dataframe using `summary(df)`. It reports the five number summary along with the mean for the numerical variables and tells you the number of levels and the number of rows in each level of the category. This helps in knowing the distribution and also if you have an imbalanced dataset(if it is a classification problem).
+
+### 6. The fun part
+And this is the most exciting part for me personally. This is where I start taking the liberty to explore the dataset and uncover the hidden stories. I extensively use `tidyverse` and `ggplot` for this purpose. How I personally approach this step is based on the above information, I list down a set of questions that I am intrigued by. These set of questions will change based on the data I am working with. Remember that the questions weigh quality and not quantity. Instead of focussing on a bunch of questions, I try to find the one which summarizes the data the maximum. You can have cross tabulation, visualizations like histogram, boxplots, bar charts, scatter plots etc. for this purpose. The goal would be to find distributions, outliers, correlations, relationships, trends, and patterns that are not evident by just looking at the data. Make sure that your analysis included both numerical and categorical analysis. A quick flowchart which is not comprehensive but gives a brief idea to explain EDA : 
+
+```{r, echo=FALSE, out.width="580px", fig.align="center"}
+knitr::include_graphics("/sneha-k.github.io/docs/assets/flow.png")
+```
+
+## Conclusion 
+There is no one size fits all for EDA. In this article, I decided not to dive deep into how to do each part of the analysis (most of it comes by experience and can't be taught), but rather explain what can we learn from each step and to help those who want to learn why each step is important. EDA is the first step in tackling a data science project to learn what data we have and evaluate its validity. A detailed EDA is time-consuming! It is an iterative process that often makes you go back to the start, after you have addressed a flaw in the dataset. This is normal! It’s the reason why we often say that 80% of any data science project is data preparation and EDA. Another important takeaway is that it is easy to get immersed in the EDA process and lose focus on the actual goal of the project. Remember EDA is like a vast pool, you can keep extracting never-ending information from a dataset. Sometimes it is okay to do a quick and dirty EDA and call it a day! It is of utmost importance to align the expectations of the client with your work. The final objective of EDA is to communicate your findings and use it to facilitate future conversations on modelling(if that is the requirement.) Always make sure that your EDA code is tidy, well comments, documented, and your plots are easy to read and interpret.(as with any other data science tasks!)
+
+Happy Learning!
