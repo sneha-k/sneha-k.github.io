@@ -8,10 +8,8 @@ nocite: '@*'
 ---
 
 <p align="center">
-  
 ![Confounding Variables](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/confounding_variables.png?raw=true) 
 **https://xkcd.com/2560/**
-  
 </p>
 
 
