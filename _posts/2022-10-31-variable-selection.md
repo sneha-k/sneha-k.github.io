@@ -7,12 +7,12 @@ bibliography: references.bib
 nocite: '@*'
 ---
 
-<center>
+<p align="center">
   
 ![Confounding Variables](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/confounding_variables.png?raw=true) 
 **https://xkcd.com/2560/**
   
-</center>
+</p>
 
 
 # What is Variable Selection?
@@ -21,12 +21,12 @@ nocite: '@*'
 # Why is Variable Selection Important?
 Without variable selection, you would be setting yourself up for failure in model building. It will be the perfect example of “Garbage-In and Garbage-Out”. Adding irrelevant variables to the model results in large overstatements of the effects of variables with little to no effect and an understatement of standard errors of the model. Variable selection has become even more essential with each passing year. In nearly every discipline of science and engineering, advances in technology have made it easier to collect huge amounts of data. The goal is to model and predict the response variable as a function of the explanatory variable, but with so many of these explanatory variables to choose from, how do you select an appropriate subset? Other eminent issues include overfitting and the curse of dimensionality. Overfitting is a concept in data science that occurs when a statistical model fits exactly against its training data. When this happens, the algorithm, unfortunately, cannot perform accurately against unseen data, defeating its purpose. The curse of dimensionality refers to a set of problems that arise when working with high-dimensional data. The dimension of a dataset corresponds to the number of attributes/features that exist in a dataset i.e. when the number of predictors is greater than the number of observations. Another known problem of adding unnecessary variables is that it reduces the interpretability of the model. Finally, by reducing the number of predictors fed into the model we reduce the time and other resources that are utilized by the model.
 
-<center>
+<p align="center">
 
 ![Example of Variable Selection](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/images.jpeg?raw=true)
 **Variable Selection Example**
   
-</center>
+</p>
 
 
 # Types of Variable Selection
@@ -41,12 +41,12 @@ There are many different types of variable or feature selection methods develope
 
 Here is a glimpse of comparison between the three categories of Variable Selection : 
 
-<center>
+<p align="center">
   
 ![Types of Variable Selection](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/comparison.png?raw=true)
 **Types of Variable Selection**
   
-</center>
+</p>
 
 
 
