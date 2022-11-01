@@ -7,7 +7,8 @@ bibliography: references.bib
 nocite: '@*'
 ---
 
-![Confounding Variables](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/confounding_variables.png?raw=true)
+
+![Confounding Variables](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/confounding_variables.png?raw=true) 
 
 
 # What is Variable Selection?
