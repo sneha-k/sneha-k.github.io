@@ -7,9 +7,12 @@ bibliography: references.bib
 nocite: '@*'
 ---
 
-
+<center>
+  
 ![Confounding Variables](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/confounding_variables.png?raw=true) 
 **https://xkcd.com/2560/**
+  
+</center>
 
 
 # What is Variable Selection?
@@ -38,8 +41,12 @@ There are many different types of variable or feature selection methods develope
 
 Here is a glimpse of comparison between the three categories of Variable Selection : 
 
+<center>
+  
 ![Types of Variable Selection](https://github.com/sneha-k/sneha-k.github.io/blob/main/docs/assets/comparison.png?raw=true)
 **Types of Variable Selection**
+  
+</center>
 
 
 
