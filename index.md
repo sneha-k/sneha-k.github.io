@@ -2,7 +2,7 @@
 
 ## Introduction
 
-I am Sneha, a _**Master of Statistics**_ student at _**North Carolina State University**_. Yes, I am a Wolfpack(ifykyk)! Here's a little snapshot of my journey :
+I am Sneha, a _**Master of Statistics**_ student at _**North Carolina State University**_. Yes, I am a part of Wolfpack(ifykyk)! Here's a little snapshot of my journey :
 
 ![Professional profile](https://user-images.githubusercontent.com/29751013/187822707-c428c8b1-e5a4-435e-94d4-11e163e1cc13.png)
 
